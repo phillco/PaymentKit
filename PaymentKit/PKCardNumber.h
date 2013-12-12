@@ -18,7 +18,7 @@
 @property (nonatomic, readonly) NSString * formattedString;
 @property (nonatomic, readonly) NSString * formattedStringWithTrail;
 
-+ (id) cardNumberWithString:(NSString *)string;
++ (instancetype) cardNumberWithString:(NSString *)string;
 - (id) initWithString:(NSString *)string;
 - (PKCardType)cardType;
 - (NSString *)last4;

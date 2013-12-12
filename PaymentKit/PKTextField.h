@@ -12,6 +12,6 @@
 
 @interface PKTextField : UITextField
 
-+ (NSString*)textByRemovingUselessSpacesFromString:(NSString*)string;
++ (NSString *)textByRemovingUselessSpacesFromString:(NSString*)string;
 
 @end

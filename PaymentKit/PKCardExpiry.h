@@ -15,7 +15,7 @@
 @property (nonatomic, readonly) NSString* formattedString;
 @property (nonatomic, readonly) NSString* formattedStringWithTrail;
 
-+ (id)cardExpiryWithString:(NSString *)string;
++ (instancetype)cardExpiryWithString:(NSString *)string;
 - (id)initWithString:(NSString *)string;
 - (NSString *)formattedString;
 - (NSString *)formattedStringWithTrail;

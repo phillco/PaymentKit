@@ -16,7 +16,7 @@
 
 @implementation PKCardCVC
 
-+ (id)cardCVCWithString:(NSString *)string
++ (instancetype)cardCVCWithString:(NSString *)string
 {
     return [[self alloc] initWithString:string];
 }
